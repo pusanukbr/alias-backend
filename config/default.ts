@@ -1,6 +1,7 @@
 export default {
   port: 1337,
-  dbUrl: "mongodb+srv://alias_bd:v4XGaWSMVemXrFZ6@cluster0.1iraz.mongodb.net/aliasDB",
+  dbUrl:
+    "mongodb+srv://alias_bd:v4XGaWSMVemXrFZ6@cluster0.1iraz.mongodb.net/aliasDB",
   saltWorkFactor: 10,
   accessTokenTtl: "15m",
   refreshTokenTtl: "1y",
@@ -24,5 +25,5 @@ export default {
   grQpn6++IhNXxbr3zBTTf68D/WsE9h6bAA6zs/qzQuGV1VMOs3laPwKvyiaX7+Wp
   V50DiBhHWcphR8oqxb08U5tbjAgz5mG1wOPRRwLpUR2vxqDVT342CNnDlFxoaUWW
   UvqjgRSjlD1Ke0IttQIDAQAB
-  -----END PUBLIC KEY-----`
+  -----END PUBLIC KEY-----`,
 };
