@@ -174,7 +174,7 @@
               "script": {
                 "exec": [
                   "var jsonData = JSON.parse(responseBody);",
-                  "postman.setEnvironmentVariable(\"productId\", jsonData.productId);",
+                  "postman.setEnvironmentVariable(\"roomsId\", jsonData.roomsId);",
                   "",
                   "",
                   "const newAccessToken = responseHeaders['x-access-token']",
@@ -442,7 +442,7 @@
     },
     {
       "key": "roomId",
-      "value": "<productId will be set when you create a session>"
+      "value": "<roomId will be set when you create a session>"
     }
   ]
 }
